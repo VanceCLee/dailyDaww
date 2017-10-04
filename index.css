@@ -1,0 +1,50 @@
+@font-face {
+    font-family: 'Julius Sans One', sans-serif;
+    src: url(JuliusSansOne-Regular.ttf);
+}
+
+body {
+	padding-top: 3%;
+	background-image: url("backClouds.jpeg");
+	background-size: 100%;
+	background-repeat: no-repeat;
+	font-family: 'Julius Sans One', sans-serif;
+	text-align: center;
+}
+
+footer {
+	background-color: ;
+	text-align: ;
+}
+
+div {
+	padding: ;
+	border-radius: ;
+}
+
+td {
+	text-align: center;
+	vertical-align: top;
+	padding-top: 1%;
+	font-size: 80%;
+}
+
+th {
+	font-size: 140%;
+	padding-top: 3%;
+}
+
+#stackSearchCol {
+	width: 500%;
+}
+
+#searchResults {
+	text-align: left;
+}
+
+table {
+	width: 100%;
+	padding-left: 12%;
+	padding-right: 12%;
+	table-layout: fixed;
+}
