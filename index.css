@@ -4,7 +4,7 @@
 }
 
 body {
-	padding-top: 3%;
+	padding-top: 0%;
 	background-image: url("");
 	background-size: 100%;
 	background-repeat: no-repeat;
@@ -27,31 +27,18 @@ td {
 	vertical-align: top;
 	padding-top: 1%;
 	font-size: 80%;
-	width: 20%;
+	width: 25%;
 }
 
 img {
-	width: 200px;
-	height: 200px;
+	width: 250px;
+	height: 250px;
 
-}
-
-th {
-	font-size: 140%;
-	padding-top: 3%;
-}
-
-#stackSearchCol {
-	width: 500%;
-}
-
-#searchResults {
-	text-align: left;
 }
 
 table {
 	width: 100%;
-	padding-left: 12%;
-	padding-right: 12%;
+	padding-left: 4%;
+	padding-right: 4%;
 	table-layout: fixed;
 }
