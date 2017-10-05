@@ -27,9 +27,14 @@ td {
 	vertical-align: top;
 	padding-top: 1%;
 	font-size: 80%;
+	width: 20%;
 }
 
-image {size:100%;}
+img {
+	width: 200px;
+	height: 200px;
+
+}
 
 th {
 	font-size: 140%;
