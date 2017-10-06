@@ -5,21 +5,21 @@
 
 body {
 	padding-top: 0%;
-	background-image: url("");
 	background-size: 100%;
 	background-repeat: no-repeat;
-	font-family: 'Julius Sans One', sans-serif;
+	font-family: 'Lobster', cursive;
 	text-align: center;
 }
 
-footer {
-	background-color: ;
-	text-align: ;
+h1 {
+	padding: 0;
+	margin: 0;
+	font-size: 40px;
 }
 
-div {
-	padding: ;
-	border-radius: ;
+th {
+	margin: 0;
+	padding: 0;
 }
 
 td {
@@ -33,12 +33,56 @@ td {
 img {
 	width: 250px;
 	height: 250px;
-
+	border-radius: 25px;
 }
 
 table {
 	width: 100%;
+	padding-top: 0%;
+	margin-top: 0%;
 	padding-left: 4%;
 	padding-right: 4%;
 	table-layout: fixed;
+}
+
+.fullscreen-bg {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  overflow: hidden;
+  z-index: -100;
+}
+
+.fullscreen-bg__video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+@media (min-aspect-ratio: 16/9) {
+  .fullscreen-bg__video {
+    height: 300%;
+    top: -100%;
+  }
+}
+
+@media (max-aspect-ratio: 16/9) {
+  .fullscreen-bg__video {
+    width: 300%;
+    left: -100%;
+  }
+}
+
+@media (max-width: 767px) {
+  .fullscreen-bg {
+    background: url('../img/videoframe.jpg') center center / cover no-repeat;
+  }
+
+  .fullscreen-bg__video {
+    display: none;
+  }
 }
